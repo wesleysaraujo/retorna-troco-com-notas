@@ -1,6 +1,19 @@
 <?php
+/**
+ * Segunda questão do teste Fidelize
+ *  
+ * @version 0.0.1
+ * @author  Wesley S. Araújo <wesley@agits.com.br>
+ */
 
-function calcNotas ($notasTroco) {
+/**
+ * Função que calcula o valor total levando em consideração as notas e suas quantidades
+ *
+ * @param  Array $notasTroco
+ * @return number
+ */
+function calcNotas($notasTroco) 
+{
     if (count($notasTroco) > 0) {
         $calc = 0;
         
@@ -9,12 +22,20 @@ function calcNotas ($notasTroco) {
         }
 
         return $calc;
-
     } else {
         return 0;
     }
 }
 
+/**
+ * Nesse primerio bloco eu defino algumas variáveis nelas temos:
+ * 
+ * @var $notas Array de notas disponíveis para troco
+ * @var $valor Valor devido
+ * @var $valorPago valor que foi pago
+ * @var $troco Calcula do valor pago - valor devido para definir troco
+ * @var $notasTroco Notas do troco
+ */
 $notas = [100, 50, 20, 10, 5, 2, 1];
 $valor = 62;
 $valorPago = 100;
