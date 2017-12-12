@@ -1,6 +1,6 @@
 <?php
 /**
- * Segunda questão do teste Fidelize
+ * Retorno de notas para troco
  *  
  * @version 0.0.1
  * @author  Wesley S. Araújo <wesley@agits.com.br>
